@@ -1,0 +1,43 @@
+.product-item-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(39, 34, 34);
+}
+
+.product-item-price {
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+.product-item-second-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.product-title:hover{
+    background: bisque;
+}
+
+/*iPad and above*/
+@media only screen and (min-width: 767px) {
+  .product-item-title {
+    font-size: 24px;
+  }
+
+  .product-item-price {
+    font-size: 30px;
+  }
+
+  .product-item-second-title {
+    font-size: 19px;
+  }
+}
+
+/*iPad Pro and above*/
+@media only screen and (min-width: 1000px) {
+}
+
+/*PC and big monitors*/
+@media only screen and (min-width: 1079px) {
+}

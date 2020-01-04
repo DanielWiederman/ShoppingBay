@@ -1,0 +1,51 @@
+.outStyling{
+    -webkit-box-shadow:0px 0px 5px 2px #CABFC4;
+    -moz-box-shadow:0px 0px 5px 2px #CABFC4;
+    box-shadow:0px 0px 5px 2px #CABFC4;
+    height: 85.5% !important;
+    background-color: #E3D7DC;
+    overflow-y: auto;
+}
+
+.headerLayOutHeight{
+    height: 13.5% !important;
+    background-color: #FDEFF5!important;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .outStyling{
+        height: 85%;
+    }
+
+    .headerLayOutHeight{
+        height: 15% !important;
+    }
+
+}
+
+@media only screen and (width: 1366px) {
+    .outStyling{
+        height: 82%;
+    }
+
+    .headerLayOutHeight{
+        height: 18% !important;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .outStyling{
+        height: 85%;
+    }
+
+    .headerLayOutHeight{
+        height: 15% !important;
+    }
+
+    .ant-layout-header{
+        padding: 0 !important;
+    } 
+}

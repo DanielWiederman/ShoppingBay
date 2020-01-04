@@ -1,0 +1,14 @@
+.goBack .arrowProps{
+    font-size: 16px;
+}
+
+.goBack .title{
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+
+.goBack-cursor{
+    cursor: pointer;
+}

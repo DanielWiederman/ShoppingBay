@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
+.navProps {
+    font-size: 17.5px;
+    color: rgb(58, 74, 77);
+}
+
+.totalInfo {
+    border-bottom: 2px solid gray
+}
+
+.totalNum {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.totalTitle {
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.tableNtotalInfoCon {
+    overflow-y: auto;
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px #888888;
+    max-height: 450px;
+    overflow-x: hidden;
+}
+
+.contentCon {
+    height: 100%;
+}
+
+.menuCon {
+    height: 100%;
+}
+
+.iconContent {
+    height: 100%;
+}
+
+.menuTitle {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 15px
+}
+
+.iconCon {
+    color: white;
+    height: 50%;
+}
+
+.menuPathname {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight:hover{
+    background-color: #888888;
+    border-radius: 5px;
+    padding: 7px 0px 5px 0px;
+}
+
+.menuIcon {
+    font-size: 20px;
+}
+
+.menuIconNTitleCon {
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.mobileHeight {
+    height: 94%;
+}
+
+.ant-table-thead>tr>th {
+    text-align: center !important;
+}
+
+.ant-table-tbody>.ant-table-row>td {
+    text-align: center !important;
+}
+
+.dynamic-delete-button {
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    font-size: 24px;
+    color: #999;
+    transition: all 0.3s;
+}
+
+.dynamic-delete-button:hover {
+    color: #777;
+}
+
+.dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.homeIcon {
+    color: white;
+    font-size: 25px;
+}
+
+.ant-drawer>.ant-drawer-content-wrapper>.ant-drawer-content>.ant-drawer-wrapper-body>.ant-drawer-header-no-title>button {
+    color: white;
+}
+
+.inputNumberModal {
+    width: 100% !important;
+}
+
+.prodToSale::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.saleNameNDate {
+    height: 100%;
+}
+
+.submitConCss {
+    height: 25%;
+    padding: 1px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.allProdsNTitleCon {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 60% !important;
+}
+
+.allProdsNTitleCon::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+.prodToSale {
+    overflow-x: hidden;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.prodsToSaleTitle {
+    font-weight: bold;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 12px;
+}
+
+.prodsToSaleInfo {
+    font-size: 12px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+.deletPhoneBtn {
+    font-weight: bold;
+    font-size: 13;
+    color: red;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+/*iPad and above*/
+
+@media only screen and (min-width: 767px) {
+    .contentCon {
+        height: 100%;
+    }
+    .slectedRow {
+        transform: translateY(6px);
+        box-shadow: 1px 2px 3px 1px #888888;
+        border-radius: 5px;
+    }
+    .tableNtotalInfoCon {
+        height: 80%;
+        overflow-y: none;
+        max-height: 100%;
+    }
+    .height100NotMobile {
+        height: 100%;
+    }
+    .menuCon {
+        border-right: 2px solid gray;
+        background-color: #18113a;
+    }
+    .mobileHeight {
+        height: 100%
+    }
+    .menuIconNTitleCon {
+        color: white;
+        font-family: 'Muli', sans-serif;
+    }
+    .menuPathname {
+        color: white;
+        font-weight: normal;
+    }
+    .addSaleLayout {
+        height: 5% !important;
+    }
+    .menuIconNTitleCon:hover {
+        cursor: pointer;
+    }
+    .menuTitle {
+        color: white;
+    }
+    .inputNumberModal {
+        width: 74% !important;
+    }
+    .saleNameNDate {
+        height: 100%;
+    }
+    .submitConCss {
+        height: 30%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+    }
+    .allProdsNTitleCon {
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 50%;
+    }
+}
+
+/*iPad Pro and above*/
+
+@media only screen and (min-width: 1000px) {
+    .contentCon {
+        height: 100%;
+    }
+    .tableNtotalInfoCon {
+        height: 80%;
+    }
+}
+
+/*PC and big monitors*/
+
+@media only screen and (min-width: 1079px) {
+    .contentCon {
+        height: 100%;
+    }
+    .tableNtotalInfoCon {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 80%;
+    }
+}

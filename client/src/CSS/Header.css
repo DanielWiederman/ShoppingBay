@@ -1,0 +1,238 @@
+.headerHeight {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.cartDrop {
+    padding-top: 5%;
+}
+
+.searchInput {
+    text-align: center;
+    height: 50px;
+    max-width: 80%;
+    min-width: 80%;
+    width: auto;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.rowLine {
+    border-bottom: 3px solid rgba(164, 162, 154, 0.39);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.searchInput .ant-input {
+    border-radius: 0px 15px 15px 0px !important;
+}
+
+.searchInput .ant-input-suffix {
+    font-size: 25px !important;
+}
+
+.logoHeader {
+    font-size: 2rem;
+}
+
+.shoppingCartIcon {
+    font-size: 40px !important;
+    cursor: pointer;
+}
+
+.shoppingCartIcon:hover {
+    color: #1890ff;
+}
+
+.selectSize .ant-select-selection--single {
+    height: 50px !important;
+    background-color: rgb(224, 209, 209) !important;
+    align-self: center !important;
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 5px 0px 0px 5px !important;
+    outline: none;
+}
+
+.ant-select:focus{
+    outline: none !important;
+    border-color: unset;
+}
+
+/*ant-select-selection--single*/
+
+.headerRow {
+    height: 50%;
+}
+
+.mainNavs {
+    font-size: 1.5rem;
+    color: #837276
+}
+
+.catPicker {
+    font-size: 1.5rem;
+    color: #837276;
+}
+
+.catSelect {
+    bottom: 2px;
+}
+
+.catSelect .ant-select-selection--single {
+    outline: none !important;
+    border: none !important;
+    background-color: #FDEFF5 !important;
+}
+
+.mainNavs:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mainNavs {
+        font-size: 14px;
+        color: #837276
+    }
+    .cartDrop {
+        padding-top: 10%;
+    }
+    .catPicker {
+        font-size: 14px;
+        color: #837276
+    }
+    .shoppingCartIcon {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .catSelect {
+        bottom: 0px;
+    }
+    .mainNavs {
+        font-size: 12px;
+        color: #837276
+    }
+    .catPicker {
+        font-size: 12px;
+        color: #837276
+    }
+    .shoppingCartIcon {
+        font-size: 25px !important;
+    }
+    .cartDrop {
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .cartDrop {
+        padding-top: 0%;
+    }
+    .logoHeader {
+        width: 125%;
+        padding-bottom: 10px;
+    }
+    .headerRow .ant-select-selection {
+        height: 20px !important;
+        background-color: rgb(224, 209, 209);
+        align-self: center;
+        display: flex;
+        align-items: center;
+        border-radius: 5px 0px 0px 5px
+    }
+    .catSelect {
+        width: 50%;
+    }
+    .searchInput {
+        text-align: center;
+        height: 20px;
+        width: 85%;
+    }
+    .searchWindow {
+        padding: 15px;
+        background-color: #FDEFF5;
+        z-index: 1000000;
+        position: fixed;
+        width: 100%;
+        top: 14%;
+    }
+    .searchInput {
+        text-align: center;
+        height: 25px;
+        max-width: 60%;
+        min-width: 60%;
+        width: auto;
+    }
+    .selectSize .ant-select-selection--single {
+        height: 32px !important;
+        align-self: center !important;
+        display: flex !important;
+        align-items: center !important;
+        border-radius: 5px 0px 0px 5px !important;
+        outline: none;
+    }
+    .searchInput .ant-input-suffix {
+        font-size: 20px !important;
+        padding-top: 4px;
+    }
+    .scale-in-center {
+        -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .scale-out-center {
+        -webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    @-webkit-keyframes scale-in-center {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    @keyframes scale-in-center {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes scale-out-center {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+    }
+    @keyframes scale-out-center {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            opacity: 1;
+        }
+    }
+}

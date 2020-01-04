@@ -1,0 +1,41 @@
+/*Mobile (This is default state)*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.sale-card-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sale-card-dimension {
+  height: 100px;
+  width: 100%;
+}
+
+.sale-img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/*iPad and above*/
+@media only screen and (min-width: 767px) {
+  .sale-img {
+    height: 250px;
+  }
+}
+
+/*iPad Pro and above*/
+@media only screen and (min-width: 1000px) {
+  .sale-img {
+    height: 300px;
+  }
+}
+
+/*PC and big monitors*/
+@media only screen and (min-width: 1079px) {
+}

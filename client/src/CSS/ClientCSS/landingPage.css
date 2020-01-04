@@ -1,0 +1,87 @@
+
+/*Mobile (This is default state)*/
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+.mainPageHeight{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.main-title{
+    font-family: 'Francois One', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-title-icon{
+    font-size: 28px !important;
+}
+
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    max-height: 450px;  /* change this to whatever you want */
+    width: auto;
+}
+
+.carousel-title{
+    font-size: 20px;
+    color: white;
+}
+
+/* .carousel-img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ */
+
+  .carousel .thumb{
+    /* width: 80px;
+    height: 100px;
+    margin-right: 6px;
+    white-space: nowrap;
+    overflow: hidden; */
+    border: 3px solid #e3d7dc;
+    /* padding: 2px; */
+  }
+
+/*iPad and above*/
+@media only screen and (min-width: 767px) {
+    .main-title{
+        font-size: 22px;
+    }
+    
+    .main-title-icon{
+        font-size: 28px !important;
+    }
+}
+
+
+/*iPad Pro and above*/
+@media only screen and (min-width: 1000px) {
+
+}
+
+
+/*PC and big monitors*/
+@media only screen and (min-width: 1079px) {
+    .main-title{
+        font-size: 26px;
+    }
+    
+    .main-title-icon{
+        font-size: 34px !important;
+    }
+}
+
+
+
+
+

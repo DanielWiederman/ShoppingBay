@@ -1,0 +1,211 @@
+/*Mobile (This is default state)*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.adminPanelContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.appBox {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: darkgrey;
+    height: 100px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 650;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homeBox{
+    background-color: burlywood;
+    border-radius: 15%;
+}
+.appBox:hover {
+    background-color: rgba(231, 188, 188, 0.315)
+}
+
+.appBox:active {
+    background-color: rgba(212, 206, 206, 0.685);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    outline: none !important;
+}
+.homeBox:hover{
+    background-color: rgb(238, 215, 186);
+ 
+}
+
+.firstRowBorder {
+    border-bottom: 5px solid darkgrey;
+}
+
+.secondRowBorder {
+    border-bottom: 5px solid darkgrey;
+    height: 100%;
+}
+
+.notificationCard {
+    border-radius: 21px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.ant-tabs-ink-bar{
+    background-color:  salmon !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color:   salmon !important;
+}
+
+/* .ant-tabs-nav .ant-tabs-tab{
+    width: 50% !important;
+} */
+
+.card-ant-props{
+    border-radius: 20px;
+}
+.borderGreen{
+    border: 3px solid green;
+}
+.borderRed{
+    border: 3px solid red;
+}
+
+
+.notiTitle {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding: 4px;
+}
+
+.sub-title{
+    font-size: 16px !important;
+}
+
+.borderBottomGreen{
+    border-bottom: 3px solid green;
+}
+.borderBottomRed{
+    border-bottom: 3px solid red;
+
+}
+.boxTitle {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/*this set css props on second div inside*/
+
+.notificationCard div:nth-child(2) {
+    padding: 3px;
+}
+
+/*iPad and above*/
+
+@media only screen and (min-width: 767px) {
+    .adminPanelContainer {
+        overflow-y: hidden;
+    }
+    .appBox {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        height: 140px;
+        font-size: 22.5px;
+    }
+    .secondRowBorder {
+        border-bottom: 0px;
+        border-right: 5px solid darkgrey;
+        border-left: 5px solid darkgrey;
+    }
+    .notificationCard {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 19px;
+    }
+    .notiTitle {
+        font-size: 22px;
+    }
+    .sub-title{
+        font-size: 18px !important;
+    }
+    .boxTitle {
+        padding-top: 7px;
+        font-size: 30px;
+    }
+}
+
+/*iPad Pro and above*/
+
+@media only screen and (min-width: 1000px) {
+    .appBox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 160px;
+        font-size: 26px;
+    }
+    .notificationCard {
+        font-size: 27px;
+    }
+    .notiTitle {
+        font-size: 30px;
+    }
+    .sub-title{
+        font-size: 24px !important;
+    }
+    .boxTitle {
+        padding-top: 7px;
+        font-size: 30px;
+    }
+}
+
+/*PC and big monitors*/
+
+@media only screen and (min-width: 1279px) {
+    .appBox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 160px;
+        font-size: 30px;
+    }
+    .notificationCard {
+        font-size: 21.5px;
+    }
+    .notiTitle {
+        font-size: 25px;
+    }
+    .boxTitle {
+        padding-top: 7px;
+        font-size: 36px;
+    }
+}
+
+
+@media only screen and (width: 1366px) {
+    .appBox {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 90px;
+        font-size: 24px;
+    }
+    .notificationCard {
+        font-size: 26px;
+    }
+    .notiTitle {
+        font-size: 26px;
+    }
+    .boxTitle {
+        padding-top: 7px;
+        font-size: 26px;
+    }
+}

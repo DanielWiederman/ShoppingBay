@@ -1,0 +1,48 @@
+.authContainer{
+    border: 3px solid black;
+    border-radius: 7.5px;
+    background: #093028;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #237A57, #093028); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    -webkit-box-shadow:0px 0px 10px 5px #000000 ;
+    -moz-box-shadow:0px 0px 10px 5px #000000 ;
+    box-shadow:0px 0px 10px 5px #000000 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.9;
+}
+
+.authContainer:hover{
+    opacity: 0.95;
+}
+
+.login-form-button{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 2500px) {
+    .authContainer {
+      width: 20%
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .authContainer {
+      width: 35%
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .authContainer {
+      width: 50%
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .authContainer {
+      width: 80%
+    }
+  }
